@@ -27,11 +27,12 @@ python metrics.py -m output-train_metric
 
 &emsp;&emsp;运行上述命令，得到如下结果。整理可得各项指标：
 
-| Method | Scene |  Training Time | #Gaussians | Peak Memory | FPS | PSNR | SSIM | LPIPS |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 3DGS |  Train | 852.4s | 1089691 | 6.814 GB | 133.9 | 22.178 | 0.821 | 0.195 |
+| Method | Scene | Training Time | #Gaussians | Peak Memory | FPS   | PSNR   | SSIM  | LPIPS |
+| ------ | ----- | ------------- | ---------- | ----------- | ----- | ------ | ----- | ----- |
+| 3DGS   | Train | 852.4s        | 1089691    | 6.814 GB    | 133.9 | 22.178 | 0.821 | 0.195 |
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/08d43630e6d34248bdb65bcd8e25071e.png)
+
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/6113e0524a9447da84263d3aca7f5170.png)
 
 ## 高斯数量变化曲线绘制
@@ -46,18 +47,6 @@ python draw_pic.py --csv_path /path/to/csv file
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/8f66cda947fe4f3fb35b7e8048d58a3a.png)
 
-
 <p align="center">
 🍦 如果你觉得该项目对你有用，请给作者一个 Star 🌟，不胜感激～～ 🍦</p>
-
-
-
-
-
-
-
-
-
-
-
 
